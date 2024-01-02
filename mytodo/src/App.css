@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+
+}
+.formContainer{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    place-items: center center;
+}
+.form{
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox{
+    padding: 0.25rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.submit{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: rgb(87, 129, 87);
+    border-radius: 30px;
+    color: black;
+}
